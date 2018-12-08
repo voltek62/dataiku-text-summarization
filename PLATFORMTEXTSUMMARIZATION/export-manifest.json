@@ -1,0 +1,91 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportManagedFolders": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportAllInputManagedFolders": false,
+    "exportGitRepository": false,
+    "exportInsightsData": false,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": []
+  },
+  "actualContent": {
+    "includedDatasets": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "allAnalysisData": false,
+    "insightsData": false
+  },
+  "originalProjectKey": "PLATFORMTEXTSUMMARIZATION",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "5.0.2",
+  "generatedWithDSSConfVersion": "21",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "ScreamingFrogModeList",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "SEMRUSH",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "ScreamingFrogModeCrawl",
+      "version": "0.0.3"
+    },
+    {
+      "pluginId": "named-entity-recognition",
+      "version": "1.0.6"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "text-summarization",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "sendmail",
+      "version": "0.1.4"
+    },
+    {
+      "pluginId": "SEARCHCONSOLE",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "sentence-embedding",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "gutenberg",
+      "version": "0.0.3"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "import-io",
+      "version": "1.0.0"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [
+    {
+      "envLang": "R",
+      "envName": "R"
+    }
+  ]
+}

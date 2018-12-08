@@ -1,0 +1,49 @@
+{
+  "type": "CustomCode_ScreamingFrogModeCrawl",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "customConfig": {
+      "report": "Internal:HTML",
+      "config": "defaultModeCrawl.seospiderconfig",
+      "url": "https://data-seo.com"
+    },
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "inputs": {},
+  "outputs": {
+    "main_output": {
+      "items": [
+        {
+          "ref": "csv_crawl_out",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1544302007767
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1544301992573
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
